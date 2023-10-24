@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>  <!-- No Head vão todos os componentes para o bom funcionamento de um site, informações como o grupo de caracteres, linguagem, fontes utilizadas e o ícone do site-->
+<head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css ">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,8 +20,8 @@
 </head>
 <body>
     
-    <!--Foram utilizadas sections e divs afim de setorizar cada parte do site, para facilidade na hora de editar o CSS e organizar melhor os componentes-->
-    <section class="menu"> <!-- Seção utilizada para o menu do site, com o anchor link direcionando para suas respectivas IDs-->
+    
+    <section class="menu">
         <nav class="opcoes">
             <a href="#home">Home</a>
             <a href="#sobre-mim">Sobre Mim</a>
@@ -31,30 +31,28 @@
         </nav>
     </section>
 
-    <section id="home" class="home"> <!-- Home ou landing page, contendo as informações mais importantes e um breve resumo de minha pessoa -->
-        <nav class="opcoes">
+    <section id="home" class="home">
         
         <p class="quem-sou">Sou <strong> Luiz Mantovaneli</strong>, atuo como engenheiro civil há 2 anos e na área de construção há 8 anos. <br><br>Atualmente estudo Análise e Desenvolvimento de Sistemas e procuro complementar a minha primeira graduação com o conhecimento adquirido neste curso </p>
     </section>
 
-    <section id="sobre-mim" class="sobre-mim"> <!--ID Sobre Mim com informações mais detalhadas-->
-        <nav class="opcoes">
+    <section id="sobre-mim" class="sobre-mim">
         <img class="foto-perfil" src="/img/perfil.jpg" alt="foto de perfil"> 
         
         <div class="texto">
-            <h2 class="sub-titulo">Sobre Mim</h2> <!-- Utilizado o atributo H2 para este e outros sub-títulos, afim de padronizar a página-->
+            <h2 class="sub-titulo">Sobre Mim</h2>
         <p>Sou Luiz Montaldi Mantovaneli, também conhecido como Ziul (sim, é Luiz ao contrário).</p>
         <p>Nascido & Criado em Curitiba há 26 anos</p>
         <p>Atualmente trabalho com Casas Residenciais pré-fabricadas de madeira, mas ao longo desses 7 anos na área de construção pude participar de construções residenciais, prediais, de infraestrutura e comercial</p>
         <p>Uma outra maneira de conhecer alguém é através da música, aqui está uma das minhas playlists favoritas: </p>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6ICqoHhNBBxJf1kEGxY8zl?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>     <!--Uso de um link externo para uma playlist do App Spotify, trazendo maior interatividade ao site-->
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6ICqoHhNBBxJf1kEGxY8zl?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    
     </div>
     </section>
 
-    <section id="formacao" class="formacao"> 
+    <section id="formacao" class="formacao">
         <h2 class="sub-titulo">Formação</h2>
         <div class="texto-formacao">
-        <p>Fui estudante de colégio público e integrante do Programa Universidade para Todos durante a minha primeira graduação em <strong> Engenharia Civil </strong>pela Universidade Positivo.</p> <!--Utilizado o atributo strong para deixar partes pontuais do texto em negrito-->
+        <p>Fui estudante de colégio público e integrante do Programa Universidade para Todos durante a minha primeira graduação em <strong> Engenharia Civil </strong>pela Universidade Positivo.</p>
         <p>No momento estudo <strong> Análise e Desenvolvimento de Sistemas </strong> com o intuito de agregar na minha formação profissional e pessoal.</p>
         <p>Falo inglês fluentemente e estou iniciando os estudos em Espanhol</p>
         </div>
@@ -63,22 +61,22 @@
     <section id="portfolio" class="portfolio">
         <h2  class="sub-titulo">Portfolio</h2>
             <div class="portfolio-civil">
-                <h3>Civil</h3> <!--Utilizado o marcador H3 para setorizar o portfolio entre a área Civil e a de Programação-->
+                <h3>Civil</h3>
                     <img class="img-portfolio" src="/img/casa1.jpg">     
                     <img class="img-portfolio" src="/img/casa2.jpg">  
                     <img class="img-portfolio" src="/img/casa3.jpg">  
                     <img class="img-portfolio" src="/img/casa4.jpg">  
             </div>
     </section>
-    <div class="divisor"> <!-- DIV Criado para dividir efetivamente com o uso de CSS, há práticas melhores, porém este foi o aplicado devido à falta de experiência com CSS -->
+    <div class="divisor">
 
     </div>
     <section>
-        <div class="portfolio-programacao"> 
+        <div class="portfolio-programacao">
             <h3>Programação</h3>
             <p>Comecei os estudos de programação há cerca de um ano, iniciando a faculdade de análise de sistemas no início de 2023. Pude concluir vários projetos, explorando todas as áreas possíveis até o momento. </p>              
             <div class="formatacao-programacao">
-                <ol> <!-- Criação de uma lista ordenada para os trabalhos já executados-->
+                <ol>
                     HTML, CSS e Javascript
                     <a target="_blank" href="https://github.com/LuizMantovaneli/AcessibilityQuiz"><li>Quiz com foco em Acessibilidade</li></a>
                     <a target="_blank" href="https://github.com/LuizMantovaneli/sistema-de-cadastro"><li>Sistema de Cadastro</li></a>
@@ -99,7 +97,7 @@
             <p class="texto-contato">Fique à vontade para me adicionar nas redes sociais: </p>
             
                 <div  class="redes">
-                    <a target="_blank" href="https://www.linkedin.com/in/luizmantovaneli/"><img class="img-redes" src="/img/linkedin.png"> <!--Criação de Anchor Links direcionados aos respectivos perfis de rede-->
+                    <a target="_blank" href="https://www.linkedin.com/in/luizmantovaneli/"><img class="img-redes" src="/img/linkedin.png">
                     <a target="_blank" href="https://github.com/LuizMantovaneli"><img class="img-redes" src="/img/github.png">     
                 </div>          
         </div>
