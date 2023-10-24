@@ -1,5 +1,5 @@
 html {
-    scroll-snap-type: y mandatory; /* Comando para o ditar o comportamento do scroll, afim de alinhar diretamente aos blocos de seção */
+    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
 
@@ -10,7 +10,7 @@ section {
 
 
 body {
-    font-family: 'Raleway', sans-serif; /* Utilizado a fonte RALEWAY, disponibilizada pelo google fonts */
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     width: 90%;
     margin: 50px;
@@ -19,14 +19,14 @@ body {
     border: 10px;
 }
 
-.menu { 
-    padding-bottom: 50px; /* Espaçamento para melhor visualização do Menu */
+.menu {
+    padding-bottom: 50px;
 }
 
 .opcoes {
     min-width: 100vh;
     margin: auto;
-    justify-content: space-evenly; /* Uso de justify-content para um equilíbrio dentro do menu */
+    justify-content: space-evenly;
     width: 50%;
     height: 30px;
     display: flex;
@@ -76,7 +76,7 @@ body {
     padding-top: 10vh;
 }
 
-.portfolio-programacao { /* */
+.portfolio-programacao {
     height: 60vh;
     border-style: solid;
     background-color: #A2C5C9;
@@ -98,7 +98,7 @@ body {
 
 .formatacao-programacao {
     display: flex;
-    justify-content: space-around; /* */
+    justify-content: space-around;
 }
 
 .sub-titulo {
@@ -160,7 +160,7 @@ a {
     justify-content: space-around;
 }
 
-.img-redes { /*Classe criada para suprimir e padronizar o tamanho da imagem */
+.img-redes {
     height: 100px;
     width: 100px;
 }
